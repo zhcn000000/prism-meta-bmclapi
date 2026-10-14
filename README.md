@@ -18,6 +18,8 @@ and republishes it via GitHub Pages.
 ## Endpoints
 
 - GitHub Pages: `https://zhcn000000.github.io/prism-meta-bmclapi/v1/`
+- Github Raw `https://raw.githubusercontent.com/zhcn000000/prism-meta-bmclapi/gh-pages/v1/`
+- JsDeliver: `https://fastly.jsdelivr.net/gh/zhcn000000/prism-meta-bmclapi@gh-pages/v1/`
 
 ## Configure Prism Launcher
 
