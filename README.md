@@ -18,12 +18,6 @@ and republishes it via GitHub Pages.
 ## Endpoints
 
 - GitHub Pages: `https://zhcn000000.github.io/prism-meta-bmclapi/v1/`
-- raw (useful behind a GitHub proxy):
-
-  ```
-  https://raw.githubusercontent.com/zhcn000000/prism-meta-bmclapi/gh-pages/v1/
-  https://gh-proxy.com/https://raw.githubusercontent.com/zhcn000000/prism-meta-bmclapi/gh-pages/v1/
-  ```
 
 ## Configure Prism Launcher
 
