@@ -1,0 +1,40 @@
+name: Mirror meta via BMCLAPI
+
+on:
+  schedule:
+    # daily at 03:17 UTC
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone upstream generated meta
+        run: git clone --depth 1 https://github.com/PrismLauncher/meta-launcher.git upstream
+
+      - name: Rewrite URLs to BMCLAPI
+        run: python3 scripts/patch_bmclapi.py upstream
+
+      - name: Assemble _site/v1
+        run: |
+          mkdir -p _site/v1
+          rsync -a --exclude .git --exclude .github upstream/ _site/v1/
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
