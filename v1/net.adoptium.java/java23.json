@@ -1,0 +1,389 @@
+{
+    "formatVersion": 1,
+    "name": "Java 23",
+    "releaseTime": "2024-09-18T09:58:40+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "1a16c654e67a72dadfa632969a457404ad1cc30c6375857fdcb393e0592ce3ba",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_x64_linux_hotspot_23.0.2_7.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "8de3b72f164555ad4b847d45bad2e455d60d414b58f63a07e3c6e4b744a7e5a1",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_x64_windows_hotspot_23.0.2_7.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b2a8a287ebd2d2a1d5d32eb6b79768cf2b5e02f1b4d6d4791297feb8636b9e2f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_linux_hotspot_23.0.2_7.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "56b86d4f5745ba44894310c3417755e4b4aaa62d4a17a5cb4dab6200c14c56fe",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_mac_hotspot_23.0.2_7.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2c5b81ce3234d6bef0ec352734aa2de19c0950020c55a1cbfc21ae5fda7690b8",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_x64_mac_hotspot_23.0.2_7.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "c2c8f8add6af6518cfc565ec0a7410e031301b91f2d8bd594303d7f04680da4e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_riscv64_linux_hotspot_23.0.2_7.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "7752a7446429a73ce4c48e273d8a4a268b6f288d36863cddc8b3cbf3de703d1a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.2+7",
+            "packageType": "jre",
+            "releaseTime": "2025-01-23T21:23:01+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.2%2B7/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.2_7.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 7,
+                "major": 23,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "0b498a5b673cb50fe9cfd0a13bd39c7259b4fad4d930d614e1563aeb8bca7f0e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_linux_hotspot_23.0.1_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "87e532fda02327e0f2766650223b6bd63a4407c4907f82790edb5862a5285116",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_x64_mac_hotspot_23.0.1_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "1233cbec40f05c76ad926b68521ae78c6ae4f454996ef549602be6987069fa77",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_x64_linux_hotspot_23.0.1_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e29029d35608f4e415e49c7990ebe0f42d0ecb7dc2d4d444e41adf3e3287f922",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_mac_hotspot_23.0.1_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "cf65a926c2d7cbdbaa63242a8d20ce747335e7260eaaabd7bb52d51c099fda9a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_riscv64_linux_hotspot_23.0.1_11.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3eec89e80f86a3592f2d3e600f88f1745fc02dbdf5347195837b736ce93b403b",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_x64_windows_hotspot_23.0.1_11.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9a3e639cb3945d800d81a31eb782b046430db94fa4db79b4625f7ff25557267e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.1+11",
+            "packageType": "jre",
+            "releaseTime": "2024-10-17T16:36:55+00:00",
+            "runtimeOS": "windows-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23.0.1%2B11/OpenJDK23U-jre_aarch64_windows_hotspot_23.0.1_11.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 11,
+                "major": 23,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9c3c3d42ffb2603b328b7154fc9eb449ef87488b3cbeb24a497d46677c7fd44d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_linux_hotspot_23_37.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5d27360b81ec2a416d5f6614cad3932711eba1b4c0e7a1b9ea697a3c4295226d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_windows_hotspot_23_37.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "1f41755494c45a8a88dfed926251f478544c0e51a71a011314fc282e915f804f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_x64_mac_hotspot_23_37.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ec45f4f9a4a98d8a0af24b508ca84a411ea88fac8abb8ad2cfca85cb3902ab5d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_linux_hotspot_23_37.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2c96b006080906951fb0ddae8e23ca3ef2bd327b77cac84b4302b8d84c7014f5",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_aarch64_mac_hotspot_23_37.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ca32d942ef5357fb948604cd8aea5c597130cf7fdf6ddee267b4aa99406ee471",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre23.0.0+37",
+            "packageType": "jre",
+            "releaseTime": "2024-09-18T09:58:40+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B37/OpenJDK23U-jre_riscv64_linux_hotspot_23_37.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 37,
+                "major": 23,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java23"
+}

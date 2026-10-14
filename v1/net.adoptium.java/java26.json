@@ -1,0 +1,465 @@
+{
+    "formatVersion": 1,
+    "name": "Java 26",
+    "releaseTime": "2026-03-23T19:32:48+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "35773116829554fb38e6acf9b92b3ba8bb7856557c3ab885e26e7d61e8c8e1b0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_x64_linux_hotspot_26.0.2.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e69241d54f689e4ac51a6c6d50f91f21cf7672363160a94f322ed7e889e27bd5",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_x64_mac_hotspot_26.0.2.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "9e1527681ae4a615044c88435d2c1a9faf1fd5c7baaf9514a4a4207608150087",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_linux_hotspot_26.0.2.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "63a94b3ba05308063536d60cb0f9bc847900a300fc53630c86eea3efa79313a4",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b2abd775b612d718a7b0893c59673a96cf6a46179834efd1752ca17efe554ed1",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_x64_windows_hotspot_26.0.2.1_1.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b3776588fe31947ea9234882203813187cf1b0449a4a98648bbacd6789c92f7f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-25T08:11:37+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2.1%2B1/OpenJDK26U-jre_riscv64_linux_hotspot_26.0.2.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "1a442a55bcf2613290b7577912900210f1eea6b45d9f9184190fca17ab9a6090",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_mac_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "d184142482ae0409f0b5c9018b238b27255b2376c5e6473b750af876f3d97a6c",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "585c4cce5807ce5677289a123680a8648c84c9afac66727a0e3027298d8e32c7",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_linux_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3c689572d2ea7aa3e19db5e5bc4ee41e90b557593d15eefcec179a9b8abfff0e",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_aarch64_linux_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "781e70f2ae6c82a99d09cd2beeed55fc9f87f9ec998c12fc1bee7378c01d3fbe",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_riscv64_linux_hotspot_26.0.2_10.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4323e886b6320e2166072bdfd604a4236c3dba6e5ab289e10aef623f09d355a0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.2+10",
+            "packageType": "jre",
+            "releaseTime": "2026-07-28T09:46:31+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.2%2B10/OpenJDK26U-jre_x64_windows_hotspot_26.0.2_10.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 10,
+                "major": 26,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2e90cf68d31b28553fb2c8202d5a4c3a5e99a60285e125dc28c94ba5fb2ac1ef",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_linux_hotspot_26.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "bf5f733066599065de5e720edda550b39d85876f5bf23a94fee2cb6a8379cb36",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_linux_hotspot_26.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "277d00ea87cf0ec0ede6736007b2fb44432fac754613df4649e61f385beb55f0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_riscv64_linux_hotspot_26.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ae27bc97ad353fe910df1b50ca989146561260c00762d65a797682068275dec9",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_aarch64_mac_hotspot_26.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "c717204061632d41439e5197a36f26cbfe7695fe1161bcf12d613394cafdae3a",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_mac_hotspot_26.0.1_8.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "bab6b82ad8600dc177f45b3225d5810779fe9d90179561d877a731294e173404",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.1+8",
+            "packageType": "jre",
+            "releaseTime": "2026-04-29T15:31:09+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26.0.1%2B8/OpenJDK26U-jre_x64_windows_hotspot_26.0.1_8.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 8,
+                "major": 26,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "460dff59e58d77980d8f3aa3172f53d09c17beca1a16b5762f388aee8c91656c",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_linux_hotspot_26_35.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3a65331f4c4b671a5e5bb3ae4e4a65fd0eb5bf8672c0c2fba6ba36972c4042a4",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_linux_hotspot_26_35.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "67d8049ff31ca1ffe3329162c0ed895cc074e37a19dd2c43ac3121ec3d889084",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_mac_hotspot_26_35.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "935060cf2e94875da1e4ffd7028a88efc87261f3843bf77520c6276ed4c6e46d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_aarch64_mac_hotspot_26_35.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "6b53b35f4995c1fe200e4ebd711393d8bcab18f948fcbbf4e0590b1825775630",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_riscv64_linux_hotspot_26_35.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "5b776c83068703c4f6b52545673161981a74262d9751aba7eaa87b38a19beb8d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre26.0.0+35",
+            "packageType": "jre",
+            "releaseTime": "2026-03-23T19:32:48+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin26-binaries/releases/download/jdk-26%2B35/OpenJDK26U-jre_x64_windows_hotspot_26_35.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 35,
+                "major": 26,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java26"
+}

@@ -1,0 +1,351 @@
+{
+    "formatVersion": 1,
+    "name": "Java 24",
+    "releaseTime": "2025-03-20T09:06:52+00:00",
+    "runtimes": [
+        {
+            "checksum": {
+                "hash": "430546a697213e8a56653ca10ea59557054b2d5451ed82aad3a2cb7359fa1e2f",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_aarch64_mac_hotspot_24.0.2_12.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "bee902852ae8b6698e04eb1599dc94af844ae45b72b3b8ec854350b9aba41335",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_x64_linux_hotspot_24.0.2_12.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "4a1177077bc5937ec93cfaaff60fd212a8591af241827869c73f87949a1268e9",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_riscv64_linux_hotspot_24.0.2_12.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "a246ba0487432ef06d1d13c3588a10663c89b15aea73c8a1c3a81211c4d22627",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_x64_mac_hotspot_24.0.2_12.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "6b06ed1d91930ef86afc7d2159948aa9b3054b154cd8afda35d1fddd158fc11d",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_aarch64_linux_hotspot_24.0.2_12.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "195b112ecf2c7dafa31c340ae2fd9c097c9ce8fac8a8c94d47dba97c8558ed21",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.2+12",
+            "packageType": "jre",
+            "releaseTime": "2025-07-17T18:45:38+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.2%2B12/OpenJDK24U-jre_x64_windows_hotspot_24.0.2_12.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 12,
+                "major": 24,
+                "minor": 0,
+                "security": 2
+            }
+        },
+        {
+            "checksum": {
+                "hash": "c13e3f4f751eee02c324d6df66c65335fc887a9b62a0bdff26523ab1a83d242b",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_x64_mac_hotspot_24.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "88fb6ad6477ca160a554c8e636c4aa2096f6424828a7e1d90464e105df882875",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_x64_linux_hotspot_24.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "ef2841ac661b18554961da14ae39ce7fec795fb53f6d52f0df3736c95db42e70",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_aarch64_linux_hotspot_24.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "0c7789da2c90ea5623dea95d2815528ee83b0d2f0977b6bf830c4cac37251550",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_aarch64_mac_hotspot_24.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "b362c2e0248a9574fe8dd958915a784d4627c3836448f3f184848616043833a7",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_x64_windows_hotspot_24.0.1_9.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "f61ecea7d2b74036b51ba5f173137344ea3909c92eebe75a1f2b0ecec2037fa0",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.1+9",
+            "packageType": "jre",
+            "releaseTime": "2025-04-16T14:16:33+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B9/OpenJDK24U-jre_riscv64_linux_hotspot_24.0.1_9.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 9,
+                "major": 24,
+                "minor": 0,
+                "security": 1
+            }
+        },
+        {
+            "checksum": {
+                "hash": "782a46008490272affe0b797155c2ae8e759e10c8ba4540f1f7285ef3d2902de",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "linux-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_aarch64_linux_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "fa9783caf9298b7e927b4589435257cf9a2cf12e1eb915992911b988f3d310bc",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "mac-os-arm64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_aarch64_mac_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "e8d8f5707d765a6bfca3de61320e0bb2618191c77947bc467ac5021e6193f351",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "linux-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_x64_linux_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "10b2a32a5544c03a4bf36f12efc3a770bb789be20ff3c9edf85102c5879479de",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "mac-os-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_x64_mac_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "3a670b2116cfc7e806ebccf6ad3b5601936581afc666587653c47e642c0acf19",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "linux-riscv64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_riscv64_linux_hotspot_24_36.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        },
+        {
+            "checksum": {
+                "hash": "2756322cf23b78bfaf4412646c852bd906ea1cc861208610b0b8f16fc91bca74",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre24.0.0+36",
+            "packageType": "jre",
+            "releaseTime": "2025-03-20T09:06:52+00:00",
+            "runtimeOS": "windows-x64",
+            "url": "https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24%2B36/OpenJDK24U-jre_x64_windows_hotspot_24_36.zip",
+            "vendor": "eclipse",
+            "version": {
+                "build": 36,
+                "major": 24,
+                "minor": 0,
+                "security": 0
+            }
+        }
+    ],
+    "uid": "net.adoptium.java",
+    "version": "java24"
+}
