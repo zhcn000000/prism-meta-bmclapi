@@ -26,9 +26,5 @@ Prism resolves `index.json` relative to it).
 
 ## Notes
 
-- Output is a point-in-time snapshot; new Minecraft/loader versions appear up to a
-  day late. Trigger the workflow manually (`workflow_dispatch`) to refresh.
-- Hosts not covered by the replacement list (`repo1.maven.org`, `files.prismlauncher.org`,
-  `archive.org`, ...) are left untouched, exactly like `worker.js`.
 - Do **not** copy `PrismLauncher/meta-launcher`'s `.github/CNAME`: it points at
   `meta.prismlauncher.org`.
