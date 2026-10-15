@@ -1,5 +1,7 @@
 # prism-meta-bmclapi
 
+**prism bmclapi meta镜像源**
+
 A static mirror of [PrismLauncher meta](https://meta.prismlauncher.org/v1/) with all
 download URLs rewritten to [BMCLAPI](https://bmclapi2.bangbang93.com/).
 
@@ -18,7 +20,7 @@ and republishes it via GitHub Pages.
 ## Endpoints
 
 - GitHub Pages: `https://zhcn000000.github.io/prism-meta-bmclapi/v1/`
-- Github Raw `https://raw.githubusercontent.com/zhcn000000/prism-meta-bmclapi/gh-pages/v1/`
+- Github Raw: `https://raw.githubusercontent.com/zhcn000000/prism-meta-bmclapi/gh-pages/v1/`
 - JsDeliver: `https://fastly.jsdelivr.net/gh/zhcn000000/prism-meta-bmclapi@gh-pages/v1/`
 
 ## Configure Prism Launcher
