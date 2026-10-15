@@ -25,8 +25,3 @@ and republishes it via GitHub Pages.
 
 Set the meta base URL to the `/v1/` endpoint above (it **must** end with `/v1/`,
 Prism resolves `index.json` relative to it).
-
-## Notes
-
-- Do **not** copy `PrismLauncher/meta-launcher`'s `.github/CNAME`: it points at
-  `meta.prismlauncher.org`.
