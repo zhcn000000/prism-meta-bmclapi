@@ -1,6 +1,6 @@
 # prism-meta-bmclapi
 
-**prism bmclapi meta镜像源**
+**prism bmclapi meta镜像源，镜像自bmclapi**
 
 A static mirror of [PrismLauncher meta](https://meta.prismlauncher.org/v1/) with all
 download URLs rewritten to [BMCLAPI](https://bmclapi2.bangbang93.com/).
