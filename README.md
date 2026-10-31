@@ -3,7 +3,7 @@
 **[PrismLauncher](https://meta.prismlauncher.org/v1/) 元数据（meta）的国内镜像，所有下载地址已改写为 [BMCLAPI](https://bmclapi2.bangbang93.com/)。**
 
 本仓库不再自己跑生成器：上游 `PrismLauncher/meta-launcher` 已经负责生成，
-这里只对生成结果做后处理（效果等同于上游的 `worker.js`），再用 GitHub Pages 发布。
+用 GitHub Pages 发布，无需独立worker nginx反代等，填写链接即可
 
 ## 工作原理
 
