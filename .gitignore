@@ -1,3 +1,6 @@
 # local build artifacts (workflow clones into ./upstream and stages ./_site)
 /upstream/
 /_site/
+
+# python bytecode
+__pycache__/

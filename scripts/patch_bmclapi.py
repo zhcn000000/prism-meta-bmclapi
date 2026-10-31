@@ -3,6 +3,7 @@
 
 Usage: patch_bmclapi.py [ROOT]   (default ROOT = "upstream")
 """
+
 import json
 import os
 import re
@@ -23,8 +24,10 @@ REPLACEMENTS = [
     (re.compile(r"maven\.minecraftforge\.net"), "bmclapi2.bangbang93.com/maven"),
     (re.compile(r"files\.minecraftforge\.net/maven"), "bmclapi2.bangbang93.com/maven"),
     # === Liteloader ===
-    (re.compile(r"dl\.liteloader\.com/versions/versions\.json"),
-     "bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json"),
+    (
+        re.compile(r"dl\.liteloader\.com/versions/versions\.json"),
+        "bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json",
+    ),
     (re.compile(r"dl\.liteloader\.com/versions"), "bmclapi2.bangbang93.com/maven"),
     # === Neoforge ===
     (re.compile(r"maven\.neoforged\.net/releases"), "bmclapi2.bangbang93.com/maven"),
@@ -35,11 +38,17 @@ REPLACEMENTS = [
 
 
 def strip_index_hashes(body: str) -> str:
-    """Drop sha256/sha1 from index 'versions'/'packages' entries.
+    """Drop sha256/sha1 from index 'versions'/'packages' entries, and the
+    'checksum' of Java runtime manifest entries served through BMCLAPI.
 
     Required: once the referenced file is rewritten its hash no longer matches,
     and Prism hard-fails online with "Checksum mismatch" when the advertised
     hash is present. Index files themselves are never hashed, so this is safe.
+
+    BMCLAPI also re-serialises the Java runtime manifests it mirrors (same JSON,
+    different bytes), so their advertised sha1 never matches the served file and
+    Prism refuses to auto-install Java. Runtimes hosted elsewhere (Adoptium, ...)
+    keep their checksum since those downloads are not rewritten.
     """
     try:
         data = json.loads(body)
@@ -58,6 +67,13 @@ def strip_index_hashes(body: str) -> str:
                 if h in entry:
                     del entry[h]
                     modified = True
+
+    for runtime in data.get("runtimes") or []:
+        if not isinstance(runtime, dict):
+            continue
+        if "checksum" in runtime and "bmclapi2.bangbang93.com" in runtime.get("url", ""):
+            del runtime["checksum"]
+            modified = True
 
     if not modified:
         return body
