@@ -1,6 +1,8 @@
 {
     "+jvmArgs": [
-        "-XX:StackShadowPages=32"
+        "-XX:StackShadowPages=32",
+        "-XX:+UnlockDiagnosticVMOptions",
+        "-XX:-UseBASE64Intrinsics"
     ],
     "+traits": [
         "XR:Initial",
@@ -10,10 +12,10 @@
     ],
     "assetIndex": {
         "id": "36",
-        "sha1": "ce44087a93bc305203f8c146ce498c9ce65ab3f4",
-        "size": 626616,
-        "totalSize": 482617023,
-        "url": "https://bmclapi2.bangbang93.com/v1/packages/ce44087a93bc305203f8c146ce498c9ce65ab3f4/36.json"
+        "sha1": "dc60cd6e824a2081fca0527b0b7e6e758fb863b8",
+        "size": 626816,
+        "totalSize": 484906173,
+        "url": "https://bmclapi2.bangbang93.com/v1/packages/dc60cd6e824a2081fca0527b0b7e6e758fb863b8/36.json"
     },
     "compatibleJavaMajors": [
         25

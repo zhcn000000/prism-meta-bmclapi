@@ -1,5 +1,8 @@
 {
-    "+jvmArgs": [],
+    "+jvmArgs": [
+        "-XX:+UnlockDiagnosticVMOptions",
+        "-XX:-UseBASE64Intrinsics"
+    ],
     "+traits": [
         "XR:Initial",
         "FirstThreadOnMacOS",
@@ -8,10 +11,10 @@
     ],
     "assetIndex": {
         "id": "31",
-        "sha1": "0171a264a06cb3227a1f317c89554418b3db6935",
-        "size": 575392,
-        "totalSize": 481194737,
-        "url": "https://bmclapi2.bangbang93.com/v1/packages/0171a264a06cb3227a1f317c89554418b3db6935/31.json"
+        "sha1": "79f608e8bb72cdb8e4882e0fcd2fa7b3765f06e4",
+        "size": 575592,
+        "totalSize": 483869353,
+        "url": "https://bmclapi2.bangbang93.com/v1/packages/79f608e8bb72cdb8e4882e0fcd2fa7b3765f06e4/31.json"
     },
     "compatibleJavaMajors": [
         25
